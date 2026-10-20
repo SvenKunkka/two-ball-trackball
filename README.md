@@ -1,3 +1,7 @@
+<!-- SVENKUNKKA-README-NAV:BEGIN -->
+[中文项目说明](#project-overview-zh) · [English overview](#project-overview-en) · [维护者 X / Maintainer on X](https://x.com/Svenu1s5)
+<!-- SVENKUNKKA-README-NAV:END -->
+
 # DIY two-ball trackball
 
 This repository contains design files and code that can be used to make a fully programmable two-ball, three-button USB trackball that looks like this:
@@ -36,3 +40,32 @@ I printed the case parts with 0.2mm layer height and no supports, though you mig
 The pin numbers are defined at the top of [trackball.cc](firmware/src/trackball.cc).
 
 ![Insides of the case](images/inside.jpg)
+
+
+---
+
+<!-- SVENKUNKKA-PROJECT-INFO:BEGIN -->
+
+<a id="project-overview-zh"></a>
+## 中文项目说明
+
+来自 jfedor2/two-ball-trackball 的个人 Fork，提供双球三键 USB DIY 轨迹球的设计与固件。采用 RP2040 和两个 PMW3360，两个球可独立设置光标或滚动功能及 CPI，映射保存在设备上。
+
+**使用入口：** 依据原 README 的物料与结构说明制作，模型位于 [3d-models](3d-models)，固件为 [trackball.uf2](firmware/trackball.uf2)，接线定义见固件源文件。
+
+**范围说明：** 上游只报告在 Linux 测试过配置工具，Windows/macOS 兼容性未确认；硬件需自行组装与验证，原作者归属保留。
+
+<a id="project-overview-en"></a>
+## English project overview
+
+A personal fork of jfedor2/two-ball-trackball with designs and firmware for a two-ball, three-button USB DIY trackball. An RP2040 and two PMW3360 sensors allow independent cursor or scroll functions and CPI settings, stored on the device.
+
+**Getting started:** Follow the upstream materials and assembly notes in the original README. See [3d-models](3d-models), [trackball.uf2](firmware/trackball.uf2) and the firmware source for pin assignments.
+
+**Scope:** Upstream reports configuration-tool testing only on Linux; Windows/macOS compatibility is unconfirmed. Hardware assembly and validation are required, with original authorship preserved.
+
+**本 Fork 的维护者 / Maintainer of this fork:** [SvenKunkka](https://github.com/SvenKunkka) · [X / Twitter](https://x.com/Svenu1s5)
+
+**上游项目 / Upstream:** [jfedor2/two-ball-trackball](https://github.com/jfedor2/two-ball-trackball)。保留原作者署名与原许可证 / Original authorship and license notices are retained.
+
+<!-- SVENKUNKKA-PROJECT-INFO:END -->
